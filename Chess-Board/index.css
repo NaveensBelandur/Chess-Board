@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Square+Peg&display=swap');
+
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color: #3a3842;
+  min-height: 100vh;
+}
+h3{
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-size: 80px;
+  margin-top:5px;
+  color: white;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
+  border:1px solid black;
+  max-width: 580px;
+  height: 500px;
+  margin-left:500px;
+  margin-top:30px;
+  cursor: pointer;
+}
+.white{
+  border:0px solid white;
+  max-width: 72px;
+  background-color: white
+}
+.white:hover{
+  background-color: red;
+}
+.black{
+  border:0px solid rgb(0, 0, 0);
+  max-width: 72px;
+  background-color: black;
+}
+
